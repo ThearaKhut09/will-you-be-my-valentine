@@ -25,7 +25,7 @@ yesBtn.addEventListener("click", () => {
   title.innerHTML = "I miss you Dany! 💗";
   btnContainer.classList.add("hidden");
   changeImage("yes");
-  displayReadButton("Hi Pookie! I just wanted to say that I love you so much! You're the best thing that ever happened to me. I'm so grateful to have you in my life. I hope you're having a great day! 😘");
+  displayReadButton("បងពិតជានឹកដល់អូនខ្លាំងណាស់។ សង្ឃឹមថាអូននិងបានអានសារមួយនេះ ទោះបីជាពួកយើងមិនមែនជាអ្វីនិងគ្នា តែបងចង់និយាយពាក្យថានឹកទៅអូន ហើយក៏សង្ឃឹមថាអូននិងសុខសប្បាយ។ ជូនពរឲ្យអូនមានសុខភាពល្អ និងជោគជ័យគ្រប់ភារកិច្ច គ្រប់បំណងរបស់អូន....។ ❤️");
 });
 
 noBtn.addEventListener("click", () => {
@@ -65,7 +65,7 @@ function generateMessage(noCount) {
 function changeImage(image) {
   img.src =
     image === "yes"
-      ? "https://media.tenor.com/ACi1vdjNbpIAAAAi/%EC%9C%A0%ED%83%80-%ED%86%A4%ED%86%A4%ED%94%84%EB%A0%8C%EC%A6%88.gif"
+      ? "https://media.tenor.com/aPFYmCN1OqsAAAAj/wrapped-gifts-birthday-presents.gif"
       : tontonGifs[image];
 }
 

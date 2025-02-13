@@ -22,7 +22,7 @@ let noButtonSize = 1;
 let yesButtonSize = 1;
 
 yesBtn.addEventListener("click", () => {
-  title.innerHTML = "Yay! I Love You!! 💗";
+  title.innerHTML = "I miss you Dany! 💗";
   btnContainer.classList.add("hidden");
   changeImage("yes");
   displayReadButton("Hi Pookie! I just wanted to say that I love you so much! You're the best thing that ever happened to me. I'm so grateful to have you in my life. I hope you're having a great day! 😘");
